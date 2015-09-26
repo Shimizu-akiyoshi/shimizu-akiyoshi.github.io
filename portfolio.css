@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: url(back.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 30%;
+    text-align: center;
+    color: white;
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+
+
+div.header-greeting {
+    padding-top: 10%;
+    font-size: 25px;
+}
+
+/* About */
+
+.about {
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 30px;
+    padding: 50px 0 50px;
+    text-align: center;
+}
+
+.face-icon img {
+    width: 30%;
+    height: auto;
+}
+
+.category {
+    padding-bottom: 10px;
+}
+
+/* Portfolio */
+
+.portfolio {
+    height: 400px;
+    text-align: center;
+    background-color: rgba(52, 73, 94, 0.3);
+}
+
+.portfolio h1 {
+    padding-top: 50px;
+}
+
+.portfolio-img {
+    float: left;
+    width: 25%;
+    padding-top: 100px;
+}
+
+.img {
+    position: relative;
+}
+
+.img p {
+    padding-top : 10px;
+}
+
+.img img {
+    width: 30%;
+    height: auto;
+}
+
+.img-big img {
+    width: 45%;
+    height: auto;
+}
+
+/* footer */
+
+.footer {
+    background-color: #2c3e50;
+    padding: 30px 0 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
